@@ -6,6 +6,13 @@
     "node": ">=22.16",
     "pnpm": ">=10.16.1"
   },
+  {
+  "pnpm": {
+    "overrides": {
+      "ts-essentials": "10.0.2"
+    }
+  }
+},
   "packageManager": "pnpm@10.16.1",
   "scripts": {
     "prepare": "node scripts/prepare.mjs",
